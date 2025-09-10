@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\rajde\OneDrive\Desktop\C2C\moodify-hackathon\ai_server\venv
+=======
+set VIRTUAL_ENV=C:\Users\rajde\AppData\Roaming\SPB_Data\c2c\moodify-hackathon\ai_server\venv
+>>>>>>> 11ca3a2 (feat: initial AI server setup with FastAPI and mock endpoint)
 
 if not defined PROMPT set PROMPT=$P$G
 

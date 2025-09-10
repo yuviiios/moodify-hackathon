@@ -1,0 +1,8 @@
+# Use /api/moodify instead of /api/recommendations
+curl -X POST http://localhost:5000/api/moodify \
+  -H "Content-Type: application/json" \
+  -d '{
+    "faceEmotion": {"emotion": "happy", "confidence": 0.8},
+    "keystrokeTimings": [120, 150, 90],
+    "spotifyToken": null
+  }'
